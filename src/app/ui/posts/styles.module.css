@@ -1,0 +1,27 @@
+.posts_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: black;
+}
+.posts_container div:first-of-type {
+  display: flex;
+}
+
+.posts {
+  background-color: rgb(13, 29, 29);
+  padding: 24px;
+  position: sticky;
+  top: 0;
+  z-index: +1;
+}
+
+.posts_container {
+  display: flex;
+}

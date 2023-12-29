@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 90, 139);
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+}
+
+.start {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  padding: 16px 64px;
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(22, 180, 117);
+  font-size: 24px;
+  color: black;
+}
+.start p {
+  display: flex;
+  padding: 8px;
+}
+.start:hover {
+  background-color: rgba(30, 165, 170, 0.988);
+  color: white;
+  cursor: pointer;
+}

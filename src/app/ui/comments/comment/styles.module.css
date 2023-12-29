@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  margin-top: 10px;
+  font-size: 12px;
+  width: 100%;
+  color: black;
+}
+.container ul {
+  list-style-type: none;
+}
+.container b {
+  font-size: 18px;
+}
+.container p {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+}
+.infoContainer {
+  background-color: rgba(110, 161, 157, 0.495);
+  color: black;
+  padding: 8px 12px;
+  border-radius: 0 10px 10px 0;
+  width: 100%;
+  padding: 8px;
+  border-left: 8px solid rgb(200, 203, 0);
+}
+
+.infoContainer:hover {
+  background-color: rgb(144, 159, 59);
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+  border-left: 8px solid red;
+}

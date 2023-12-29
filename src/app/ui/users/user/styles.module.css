@@ -1,0 +1,68 @@
+.user_card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #f2f4fd;
+}
+
+.user_card:hover {
+  cursor: pointer;
+  background-color: #e2ebf1bb;
+}
+.card_num {
+  font-weight: bold;
+  color: teal;
+}
+.user_card>span {
+  font-size: 14px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.activity {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 16px 0;
+  margin: 4px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: #2B7FC0;
+  font-weight: bold;
+  background-color: #EEEFF3;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  row-gap: 10px;
+  padding: 4px;
+}
+
+.info>p {
+  display: flex;
+  justify-content: space-between;
+}
+
